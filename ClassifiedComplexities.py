@@ -1,9 +1,16 @@
 import copy
-
 import tensorflow as tf
 
 
-class BigOhN1:
+class BigOh1:
+  """
+  """
+
+class BigOhLogN:
+  """
+  """
+
+class BigOhN:
 
   def __init__(self, arg_0, kwarg_0):
     self.arg_0 = arg_0
@@ -58,3 +65,12 @@ class BigOhN1:
     min_diff =  min(abs(diff_list_0))
 
     return min_diff
+
+class BigOhNLogN:
+  """
+  """
+
+class BigOhN2:
+  """
+  """
+
